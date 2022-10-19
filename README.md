@@ -25,10 +25,10 @@ Then you can inject the client factory in your controllers:
 ```csharp
 public class HomeController : Controller
 {
-    private readonly IMpLoginApi _loginApi;
+    private readonly IWeChatLoginApi _loginApi;
     private readonly WeChatApiOptions _options;
     
-    public HomeController(IMpLoginApi loginApi, IOptions<WeChatApiOptions> options)
+    public HomeController(IWeChatLoginApi loginApi, IOptions<WeChatApiOptions> options)
     {
         _loginApi = loginApi;
         _options = options.Value;    
