@@ -43,8 +43,3 @@ public class HomeController : Controller
     }
 }
 ```
-
-Leave a comment on GitHub if you have any questions or suggestions.
-
-## License
-This project is licensed under the MIT License
