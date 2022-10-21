@@ -70,9 +70,4 @@ public class ParseTenpayMessageTester
         Assert.Equal("wx1810274334130380556e69a4866d540000", message.PrepayId);
         Assert.Equal("JSAPI",                                message.TradeType);
     }
-
-    public void TestGetOrderResponse()
-    {
-        
-    }
 }

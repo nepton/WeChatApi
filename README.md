@@ -1,6 +1,19 @@
-﻿WeChat API is a dotnet library for WeChat API. It provides a simple way to use WeChat API.
+﻿# WeChatApi
+[![Build status](https://ci.appveyor.com/api/projects/status/0demce8dk7f63f0i?svg=true)](https://ci.appveyor.com/project/nepton/wechat-api)
+![GitHub issues](https://img.shields.io/github/issues/nepton/wechat-api.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/wechat-api/blob/master/LICENSE)
+
+WeChat API is a dotnet library for WeChat API. It provides a simple way to use WeChat API.
+
+## Nuget packages
+
+| Name                   | Version                                                                                                                       | Downloads                                                                                                                      |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| WeChatApi.Abstractions | [![nuget](https://img.shields.io/nuget/v/WeChatApi.Abstractions.svg)](https://www.nuget.org/packages/WeChatApi.Abstractions/) | [![stats](https://img.shields.io/nuget/dt/WeChatApi.Abstractions.svg)](https://www.nuget.org/packages/WeChatApi.Abstractions/) |
+| WeChatApi.RestSharp    | [![nuget](https://img.shields.io/nuget/v/WeChatApi.RestSharp.svg)](https://www.nuget.org/packages/WeChatApi.RestSharp/)       | [![stats](https://img.shields.io/nuget/dt/Thingsboard.Net.Flurl.svg)](https://www.nuget.org/packages/Thingsboard.Net.Flurl/)   |
 
 ## Installing
+
 Install the NuGet package from nuget.org
 
 ```
@@ -47,4 +60,5 @@ public class HomeController : Controller
 Leave a comment on GitHub if you have any questions or suggestions.
 
 ## License
+
 This project is licensed under the MIT License

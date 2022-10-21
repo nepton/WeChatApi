@@ -17,9 +17,9 @@ public class TestToXml
         var xml = requestHandler.ToXml();
         var doc = new XmlDocument();
         doc.LoadXml(xml);
-        Assert.Equal("wx2421b1c4370ec43b", doc.DocumentElement.SelectSingleNode("appid").InnerText);
-        Assert.Equal("10000100",           doc.DocumentElement.SelectSingleNode("mch_id").InnerText);
-        Assert.Equal("1000",               doc.DocumentElement.SelectSingleNode("device_info").InnerText);
-        Assert.Equal("test",               doc.DocumentElement.SelectSingleNode("body").InnerText);
+        Assert.Equal("wx2421b1c4370ec43b", doc.DocumentElement?.SelectSingleNode("appid")?.InnerText);
+        Assert.Equal("10000100",           doc.DocumentElement?.SelectSingleNode("mch_id")?.InnerText);
+        Assert.Equal("1000",               doc.DocumentElement?.SelectSingleNode("device_info")?.InnerText);
+        Assert.Equal("test",               doc.DocumentElement?.SelectSingleNode("body")?.InnerText);
     }
 }
