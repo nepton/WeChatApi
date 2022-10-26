@@ -1,7 +1,7 @@
 ﻿# WeChatApi
-[![Build status](https://ci.appveyor.com/api/projects/status/0demce8dk7f63f0i?svg=true)](https://ci.appveyor.com/project/nepton/wechat-api)
-![GitHub issues](https://img.shields.io/github/issues/nepton/wechat-api.svg)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/wechat-api/blob/master/LICENSE)
+[![Build status](https://ci.appveyor.com/api/projects/status/euhe9n0f30161hsu?svg=true)](https://ci.appveyor.com/project/nepton/wechatapi)
+![GitHub issues](https://img.shields.io/github/issues/nepton/WeChatApi.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/WeChatApi/blob/master/LICENSE)
 
 WeChat API is a dotnet library for WeChat API. It provides a simple way to use WeChat API.
 

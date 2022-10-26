@@ -8,16 +8,15 @@
 
     <PropertyGroup>
         <PackageId>WeChatApi.Abstractions</PackageId>
-        <VersionPrefix>1.0.0</VersionPrefix>
-        <Authors>Nepton Liu</Authors>
         <Description>The dotnet restful api client for WeChat</Description>
-        <PackageProjectUrl>https://github.com/nepton/wechat-api</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/nepton/wechat-api</RepositoryUrl>
-        <PackageIcon>app.png</PackageIcon>
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/nepton/WeChatApi</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nepton/WeChatApi.git</RepositoryUrl>
         <PackageTags>api;wechat;sdk;client;weixin</PackageTags>
 
+        <Authors>Nepton Liu</Authors>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <IncludeSymbols>True</IncludeSymbols>
@@ -36,7 +35,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="app.png" Pack="true" PackagePath="\" />
+        <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
         <NOne Include="..\..\readme.md" Pack="true" PackagePath="\" />
     </ItemGroup>
     
